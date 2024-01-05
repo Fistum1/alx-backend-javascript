@@ -12,9 +12,7 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-parser: '@typescript-eslint/parser',
   parserOptions: {
-project: true,
     ecmaVersion: 2018,
     sourceType: 'module',
   },
@@ -27,7 +25,6 @@ project: true,
       'LabeledStatement',
       'WithStatement',
     ],
-//'@typescript-eslint/prefer-nullish-coalescing': 'error',
   },
   overrides:[
     {
